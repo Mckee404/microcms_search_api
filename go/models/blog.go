@@ -12,7 +12,8 @@ type Blog struct {
 	PublishedAt *time.Time `json:"publishedAt,omitempty"`
 	Title       *string    `json:"title,omitempty"`
 	Body        *string    `json:"body,omitempty"`
-	Tag         []Tag      `json:"tag,omitempty"`
+	Tags         []Tag      `json:"tags,omitempty"`
 	Category    *Category   `json:"category,omitempty"`
 	Thumbnail   *Thumbnail `json:"thumbnail,omitempty"`
+	Overview 	*string    `json:"overview,omitempty"`
 }
