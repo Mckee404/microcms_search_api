@@ -14,4 +14,5 @@ type Blog struct {
 	Body        *string    `json:"body,omitempty"`
 	Tag         []Tag      `json:"tag,omitempty"`
 	Category    *Category   `json:"category,omitempty"`
+	Thumbnail   *Thumbnail `json:"thumbnail,omitempty"`
 }
